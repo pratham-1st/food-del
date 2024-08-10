@@ -26,5 +26,52 @@
 .food-item-rating h2{
     font-size: max(1.2vw, 20px);
     font-weight: 600;
-    color: rgb(129, 127, 127);
+    color: rgb(60, 56, 56);
+}
+
+.food-item-rating img{
+    width: 80px;
+}
+
+.food-item-desc{
+    font-size: min(1.2vw, 14px);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.food-item-price{
+    font-size: 25px;
+    margin-top: 10px;
+    color: tomato;
+}
+
+.food-item-image-container{
+    position: relative;
+}
+
+.food-item-image-container .add{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+}
+
+.food-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 8px;
+}
+
+.food-item-counter img{
+    width: 30px;
+}
+
+.food-item-name{
+    color: black;
 }
