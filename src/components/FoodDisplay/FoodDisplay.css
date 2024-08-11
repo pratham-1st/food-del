@@ -3,7 +3,7 @@
 }
 
 .food-display h2{
-    font-size: min(2vw, 28px);
+    font-size: max(2vw, 28px);
     font-weight: 600;
 }
 
@@ -13,4 +13,10 @@
     gap: 30px;
     row-gap: 30px;
     margin-top: 30px;
+}
+
+@media (max-width:1050px){
+    .food-display h2{
+        font-size: 3.5vh;
+    }
 }

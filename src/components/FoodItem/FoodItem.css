@@ -34,9 +34,10 @@
 }
 
 .food-item-desc{
-    font-size: min(1.2vw, 14px);
+    font-size: max(1.2vw, 14px);
     font-weight: 500;
     margin-top: 5px;
+    color: rgb(109, 107, 107);
 }
 
 .food-item-price{

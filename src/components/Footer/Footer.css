@@ -55,3 +55,15 @@ hr{
 .footer-copyright{
     margin-bottom: 5px;
 }
+
+@media (max-width:750px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer-copyright{
+        text-align: center;
+    }
+}
