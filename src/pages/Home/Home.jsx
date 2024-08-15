@@ -19,7 +19,6 @@ const Home = () => {
         <FoodDisplay category={category}/>
         <AppDownload />
     </div>
-    <Footer />
     </>
   )
 }

@@ -3,7 +3,7 @@ import './navbar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
     const [menu,setMenu] = useState("");
 
     return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-            <button>sign up</button>
+            <button onClick={() => setShowLogin(true)}>sign up</button>
         </div>
     </div>
   )
