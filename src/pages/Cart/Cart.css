@@ -1,0 +1,125 @@
+.cart{
+    margin-top: 100px;
+}
+
+.cart-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1.3vw, 12px);
+}
+
+.cart-items{
+    margin: 10px 0;
+    color: black;
+}
+
+.cart-items img{
+    width: 50px;
+}
+
+.cart-hr{
+    outline: none;
+    color: grey;
+}
+
+.cross-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: max(12vw, 20px);
+}
+
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-items-total{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+
+.cart-total hr{
+    margin: 1px 0px;
+}
+
+.cart-total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.enter-promocode-details{
+    flex: 1;
+}
+
+.enter-promocode-details p{
+    color: #555;
+}
+
+.enter-promo-input{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e6e6;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.enter-promo-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.enter-promo-input button{
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    
+    .enter-promocode-details p{
+        font-size: 15px;
+    }
+    .enter-promo-input{
+        align-items: flex-start;
+    }
+
+    .cart-items img{
+        width: 40px;
+    }
+
+    .cart-items p{
+        font-size: 14px;
+    }
+
+    .enter-promo-input input{
+        align-items: center;
+        padding-top: 15px;
+    }
+}
