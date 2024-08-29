@@ -40,3 +40,10 @@
 .place-order-right button{
     margin-top: 30px;
 }
+
+@media(max-width:750px){
+    .place-order{
+        display: flex;
+        flex-direction: column;
+    }
+}
